@@ -1,0 +1,24 @@
+Sky
+128 128 128
+Building
+128 0 0
+Road
+128 64 128
+Sidewalk
+0 0 192
+Fence
+64 64 128
+Vegetation
+128 128 0
+Pole
+192 192 128
+Car
+64 0 128
+Sign
+192 128 128
+Pedestrian
+64 64 0
+Cyclist
+0 128 192
+Ignore
+0 0 0
