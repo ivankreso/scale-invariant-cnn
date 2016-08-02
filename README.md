@@ -13,7 +13,7 @@ We provide:
 
 ## Usage:
 - Download [KITTI](http://www.zemris.fer.hr/~ssegvic/multiclod/kitti_semseg_unizg.shtml) or [Cityscapes](https://www.cityscapes-dataset.com) dataset
-- Prepare the data for [scale-invariant](https://github.com/ivankreso/scale-invariant-cnn/blob/master/models/scale_invariant.lua) or [single-scale](https://github.com/ivankreso/scale-invariant-cnn/blob/master/models/single_scale.lua) model.
+- Prepare the data for [scale-invariant](https://github.com/ivankreso/scale-invariant-cnn/blob/master/models/scale_invariant.lua) or [single-scale](https://github.com/ivankreso/scale-invariant-cnn/blob/master/models/single_scale.lua) model
 - Modify all data paths for your system and run the training script:
 ```
 th train.lua -model models/scale_invariant.lua -solver solver\_config.lua
