@@ -4,9 +4,11 @@ This is the code for the paper:
 
 
 We provide:
-- Dataset preparation in `preprocessing/`
-- Training code
-- Implementation for data prefetching useful if the dataset can't fit into RAM
+- [Training code](https://github.com/ivankreso/scale-invariant-cnn/blob/master/train.lua)
+- [Model definitions]
+- Implementations of weighted cross-entropy loss funcion and scale-selecion layer
+- [Dataset preparation code](https://github.com/ivankreso/scale-invariant-cnn/tree/master/preprocessing)
+- Implementation for [multi-threaded data prefetching](https://github.com/ivankreso/scale-invariant-cnn/blob/master/data_container_multifile_threaded.lua) useful if the whole dataset can't fit into RAM
 
 
 ## Usage:
