@@ -9,6 +9,7 @@ We provide:
 - Implementations of [weighted cross-entropy](https://github.com/ivankreso/scale-invariant-cnn/blob/master/layers/SpatialCrossEntropyCriterionWithIgnore.lua) loss funcion and [scale-selecion layer](https://github.com/ivankreso/scale-invariant-cnn/blob/master/layers/PyramidMultiplexer.lua)
 - [Dataset preparation code](https://github.com/ivankreso/scale-invariant-cnn/tree/master/preprocessing) 
 - Code for [multi-threaded data prefetching](https://github.com/ivankreso/scale-invariant-cnn/blob/master/data_container_multifile_threaded.lua) useful if the whole dataset can't fit into RAM
+- [Notebooks](https://github.com/ivankreso/scale-invariant-cnn/tree/master/notebooks) for evaluation and visualization
 
 
 ### How to reproduce:
